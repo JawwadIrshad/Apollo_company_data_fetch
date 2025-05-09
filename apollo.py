@@ -2,7 +2,7 @@ import http.client
 import json
 
 # Set your Apollo API key here
-API_KEY = "IOBtzah731A1o_UEXJ4MTw"
+API_KEY = ""
 
 def fetch_email_by_person_id(person_id, person_name, organization_name, api_key):
     """
