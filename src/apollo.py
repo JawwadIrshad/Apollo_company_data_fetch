@@ -2,7 +2,7 @@ import http.client
 import json
 
 # Set your Apollo API key here
-API_KEY = "IOBtzah731A1o_UEXJ4MTw"
+API_KEY = "" #paste yur API key
 
 def fetch_email_by_person_id(person_id, person_name, organization_name, api_key):
     """
@@ -134,21 +134,8 @@ def fetch_people_by_company(api_endpoint, company_name, per_page=5, unlock_email
 
 def main():
     # Set your API endpoint for people search (this one has filters set as query parameters)
-    API_ENDPOINT = ("/api/v1/mixed_people/search?"
-                    "includedOrganizationKeywordFields%5B%5D=tags&"
-                    "includedOrganizationKeywordFields%5B%5D=name&"
-                    "revenueRange%5Bmin%5D=1000000&"
-                    "company_keywords%5B%5D=CNC%2520Machines&"
-                    "sortByField=%5Bnone%5D&"
-                    "sortAscending=false&"
-                    "personTitles%5B%5D=President&"
-                    "personTitles%5B%5D=Owner&"
-                    "personTitles%5B%5D=CMO&"
-                    "personTitles%5B%5D=CEO&"
-                    "personTitles%5B%5D=chiefmarketingofficer&"
-                    "personTitles%5B%5D=chiefexecutiveofficer&"
-                    "personTitles%5B%5D=chiefmarketingdirector&"
-                    "personLocations%5B%5D=UnitedStates")
+    API_ENDPOINT = (""
+    )
 
     company_name = input("Enter company name to search for: ").strip()
     per_page_input = input("Enter number of results per page (default 5): ").strip()
