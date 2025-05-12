@@ -7,21 +7,7 @@ def main():
     # load_dotenv()
 
     SHEET_NAME = "ApolloCompaniesPeopleSearch"
-    API_ENDPOINT = ("/api/v1/mixed_people/search?"
-                    "includedOrganizationKeywordFields%5B%5D=tags&"
-                    "includedOrganizationKeywordFields%5B%5D=name&"
-                    "revenueRange%5Bmin%5D=1000000&"
-                    "company_keywords%5B%5D=CNC%2520Machines&"
-                    "sortByField=%5Bnone%5D&"
-                    "sortAscending=false&"
-                    "personTitles%5B%5D=President&"
-                    "personTitles%5B%5D=Owner&"
-                    "personTitles%5B%5D=CMO&"
-                    "personTitles%5B%5D=CEO&"
-                    "personTitles%5B%5D=chiefmarketingofficer&"
-                    "personTitles%5B%5D=chiefexecutiveofficer&"
-                    "personTitles%5B%5D=chiefmarketingdirector&"
-                    "personLocations%5B%5D=UnitedStates")
+    API_ENDPOINT = ()
     TAB_NAME = "Results"
 
     # Initialize Google Sheets
