@@ -8,7 +8,7 @@ def main():
 
     SHEET_NAME = " "
     API_ENDPOINT = ()
-    TAB_NAME = "Results"
+    TAB_NAME = " "
 
     # Initialize Google Sheets
     try:
