@@ -6,7 +6,7 @@ def main():
     # Load environment variables if needed
     # load_dotenv()
 
-    SHEET_NAME = "ApolloCompaniesPeopleSearch"
+    SHEET_NAME = " "
     API_ENDPOINT = ()
     TAB_NAME = "Results"
 
